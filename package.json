@@ -26,7 +26,7 @@
     "test:unit": "yarn test --watch -c jest-unit-config.js",
     "test:integration": "yarn test --watch -c jest-integration-config.js",
     "test:staged": "yarn jest test --passWithNoTests --findRelatedTests",
-    "test:ci": "yarn test:verbose --coverage",
+    "test:ci": "yarn test:verbose --noStackTrace --coverage",
     "jest:cache": "jest --clearCache"
   }
 }
